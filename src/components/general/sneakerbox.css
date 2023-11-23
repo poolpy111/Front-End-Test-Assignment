@@ -1,0 +1,96 @@
+.sneaker-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+.sneaker-grid > * {
+  width: calc(33.33% - 10px);
+  box-sizing: border-box;
+  max-height: 150px;
+  border-radius: 12px;
+  margin-right: 20px;
+  background: var(--White, #FFF);
+  box-shadow: 0px 3px 5px 0px rgba(6, 31, 106, 0.05);
+  margin-bottom: 20px;
+}
+
+.sneaker-box {
+  border: 1px solid #ccc;
+  padding: 15px 10px 10px;
+  width: calc(33.33% - 20px);
+  height: 250px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.sneaker-box h3 {
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.sneaker-box h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+
+.rating-stars {
+  margin-left: 3px;
+  position: relative;
+  bottom: 10px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-container h4 {
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: -20px;
+}
+
+.grid-container h3 {
+  font-size: 16px;
+}
+
+.grid-2 {
+  border-left: 2px solid #ebebeb;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.grid-3 {
+  border-left: 2px solid #ebebeb;
+  padding-left: 5px;
+  height: 40px;
+  margin-right: 50px;
+}
+
+.sneaker-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.sneaker-header svg {
+  position: relative;
+   z-index: 5px;
+    cursor: pointer;
+}
+
+.trash-icon {
+  transition: transform 0.3s ease;
+}
+
+.trash-icon:hover {
+  transform: scale(1.1);
+}

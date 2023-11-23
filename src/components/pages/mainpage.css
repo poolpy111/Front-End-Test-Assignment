@@ -1,0 +1,125 @@
+  .no-collection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .no-collection img {
+    width: 750px;
+    height: auto;
+  }
+  
+  .no-collection p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    padding: 0 20px;
+    text-align: center;
+
+    font-family: Excon;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+  }
+
+  .search-better {
+    color: var(--Black, #191919);
+    text-align: center;
+    
+    font-family: Excon;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .search-better-img {
+    width: 300px !important;
+    height: auto;
+  }
+  
+  .sort-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+    margin-right: 70px;
+  }
+
+  .sort-container span {
+    position: relative;
+    top: 1px;
+    margin-right: 15px;
+  }
+
+  .sort-container button {
+    border-radius: 12px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid var(--Black, #191919);
+  }
+
+  .sort-buttons button{
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sorting-icon {
+    position: relative;
+    right: 1px;
+  }
+
+  .oldest-year-button.active,
+  .smallest-size-button.active,
+  .price-button.active {
+    border: none;
+    background: var(--Red, #EF233C);
+    color: white;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    opacity: 1;
+  }
+ 
+  .oldest-year-button,
+  .smallest-size-button,
+  .price-button {
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+  }
+  
+  .oldest-year-button:hover,
+  .smallest-size-button:hover,
+  .price-button:hover {
+    opacity: 1;
+  }
+
+  .search-results-not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none !important;
+    box-shadow: none !important;
+    margin-left: 500px;
+    text-align: center;
+  }
+
+  .search-results-not-found p {
+    position: relative;
+    top: 20px;
+    left: 25px;
+
+    color: var(--Black, #191919);
+
+    font-family: Excon;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
